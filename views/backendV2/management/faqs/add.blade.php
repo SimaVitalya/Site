@@ -24,7 +24,7 @@
 												</div>
 												<form method="post" class="kt-form" action="{{ route('backend-management-faq-add-form') }}">
 													@csrf
-													
+
 													<div class="kt-portlet__body">
 														<div class="kt-section kt-section--first">
 															<div class="form-group">
@@ -37,19 +37,19 @@
 																	</span>
 																@endif
 															</div>
-															
+
 															<div class="form-group">
 																<label for="faq_add_category">{{ __('backend/management.faqs.category') }}</label>
 																<select name="faq_add_category" id="faq_add_category" class="form-control @if($errors->has('faq_add_category')) is-invalid @endif">
 																	<option value="0">{{ __('backend/main.please_choose') }}</option>
 																	@foreach(App\Models\FAQCategory::all() as $faqCategory)
-																	<option value="{{ $faqCategory->id }}" @if(old('faq_add_category') == $faqCategory->id) selected @endif>{{ $faqCategory->name }}</option>	
+																	<option value="{{ $faqCategory->id }}" @if(old('faq_add_category') == $faqCategory->id) selected @endif>{{ $faqCategory->name }}</option>
 																	@endforeach
 																</select>
 
 																@if($errors->has('faq_add_category'))
 																	<span class="invalid-feedback" style="display:block;" role="alert">
-																		<strong>{{ $errors->first('faq_add_category') }}</strong>
+																		<strong>{{ $errors->firstF('faq_add_category') }}</strong>
 																	</span>
 																@endif
 															</div>

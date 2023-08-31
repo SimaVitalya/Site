@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Support\Providers;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Illuminate\Foundation\Support\Providers;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers;
 
-use Illuminate\Foundation\Events\DiscoverEvents;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Events\DiscoverEvents;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
 

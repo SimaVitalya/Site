@@ -1,9 +1,9 @@
 <?php
 
-namespace Illuminate\Foundation\Testing;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Testing;
 
 use Illuminate\Contracts\Console\Kernel;
-use Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Traits\CanConfigureMigrationCommands;
 
 trait DatabaseMigrations
 {

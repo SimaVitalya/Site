@@ -86,7 +86,7 @@ namespace App\Http\Controllers\UserPanel;
                             'amount' => $maxOpenTicketCountPerUser,
                         ]),
                     ]);
-                } 
+                }
                 // elseif (! Auth::user()->hasOrders() && ! Auth::user()->hasTransactions()) {
                 //     return redirect()->route('ticket-create')->with([
                 //         'errorMessage' => __('frontend/user.not_allowed_to_open_ticket'),
@@ -98,9 +98,10 @@ namespace App\Http\Controllers\UserPanel;
                     'subject' => 'required|max:255',
                     'ticket_category' => new RuleUserTicketCategoryExists(),
                     // 'captcha' => 'required|captcha',
+//                    dd($request->request)
                 ]);
 
-               
+
                 if (! $validator->fails()) {
                     $subject = $request->input('subject');
                     $message = $request->input('message');
@@ -133,7 +134,7 @@ namespace App\Http\Controllers\UserPanel;
                 if ($request->getMethod() == 'POST') {
                     $validator = Validator::make($request->all(), [
                         'message' => 'required|max:1000',
-                        'captcha' => 'required|captcha',
+//                        'captcha' => 'required|captcha',
                     ]);
 
                     if (! $validator->fails()) {
@@ -168,6 +169,7 @@ namespace App\Http\Controllers\UserPanel;
                 return view('frontend/userpanel.tickets.ticket', [
                     'ticket' => $ticket,
                     'ticketReplies' => $ticketReplies,
+
                 ]);
             }
 
@@ -178,7 +180,8 @@ namespace App\Http\Controllers\UserPanel;
         {
             $ticket = UserTicket::where('user_id', Auth::user()->id)->where('id', $id)->get()->first();
             $ticketReplies = UserTicketReply::where('ticket_id', $id)->get()->all();
-
+            $user = UserTicket::all();
+//            dd($user);
             if ($ticket != null) {
                 return view('frontend/userpanel.tickets.newticket', [
                     'ticket' => $ticket,

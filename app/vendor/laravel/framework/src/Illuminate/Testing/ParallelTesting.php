@@ -170,7 +170,7 @@ class ParallelTesting
     /**
      * Call all of the "setUp" test case callbacks.
      *
-     * @param  \Illuminate\Foundation\Testing\TestCase  $testCase
+     * @param  \App\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase  $testCase
      * @return void
      */
     public function callSetUpTestCaseCallbacks($testCase)
@@ -222,7 +222,7 @@ class ParallelTesting
     /**
      * Call all of the "tearDown" test case callbacks.
      *
-     * @param  \Illuminate\Foundation\Testing\TestCase  $testCase
+     * @param  \App\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase  $testCase
      * @return void
      */
     public function callTearDownTestCaseCallbacks($testCase)

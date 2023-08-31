@@ -3,10 +3,10 @@
 namespace Fruitcake\Cors;
 
 use Asm89\Stack\CorsService;
-use Illuminate\Foundation\Application as LaravelApplication;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
-use Illuminate\Foundation\Http\Events\RequestHandled;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Http\Events\RequestHandled;
 
 class CorsServiceProvider extends BaseServiceProvider
 {

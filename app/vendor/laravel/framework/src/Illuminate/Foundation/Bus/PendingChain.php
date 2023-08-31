@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Bus;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Bus;
 
 use Closure;
 use Illuminate\Contracts\Bus\Dispatcher;
@@ -131,7 +131,7 @@ class PendingChain
     /**
      * Dispatch the job with the given arguments.
      *
-     * @return \Illuminate\Foundation\Bus\PendingDispatch
+     * @return \App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingDispatch
      */
     public function dispatch()
     {

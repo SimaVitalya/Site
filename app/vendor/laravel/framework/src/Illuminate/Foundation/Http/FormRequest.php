@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Http;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Http;
 
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Auth\Access\Response;

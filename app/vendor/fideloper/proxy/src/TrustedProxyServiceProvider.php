@@ -2,7 +2,7 @@
 
 namespace Fideloper\Proxy;
 
-use Illuminate\Foundation\Application as LaravelApplication;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
 

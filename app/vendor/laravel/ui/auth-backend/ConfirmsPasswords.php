@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Auth;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Auth;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

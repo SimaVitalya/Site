@@ -3,7 +3,7 @@
 namespace Illuminate\Testing\Concerns;
 
 use Illuminate\Database\QueryException;
-use Illuminate\Foundation\Testing;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Testing;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;

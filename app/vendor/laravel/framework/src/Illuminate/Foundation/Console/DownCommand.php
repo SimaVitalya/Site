@@ -1,12 +1,12 @@
 <?php
 
-namespace Illuminate\Foundation\Console;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Console;
 
 use App\Http\Middleware\PreventRequestsDuringMaintenance;
 use Exception;
 use Illuminate\Console\Command;
-use Illuminate\Foundation\Events\MaintenanceModeEnabled;
-use Illuminate\Foundation\Exceptions\RegisterErrorViewPaths;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Events\MaintenanceModeEnabled;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\RegisterErrorViewPaths;
 use Throwable;
 
 class DownCommand extends Command

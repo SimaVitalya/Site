@@ -1,9 +1,9 @@
 <?php
 
-namespace Illuminate\Foundation\Testing\Concerns;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns;
 
 use DateTimeInterface;
-use Illuminate\Foundation\Testing\Wormhole;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Wormhole;
 use Illuminate\Support\Carbon;
 
 trait InteractsWithTime
@@ -12,7 +12,7 @@ trait InteractsWithTime
      * Begin travelling to another time.
      *
      * @param  int  $value
-     * @return \Illuminate\Foundation\Testing\Wormhole
+     * @return \App\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Wormhole
      */
     public function travel($value)
     {

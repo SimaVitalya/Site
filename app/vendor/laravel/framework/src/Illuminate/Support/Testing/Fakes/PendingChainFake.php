@@ -3,7 +3,7 @@
 namespace Illuminate\Support\Testing\Fakes;
 
 use Closure;
-use Illuminate\Foundation\Bus\PendingChain;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingChain;
 use Illuminate\Queue\CallQueuedClosure;
 
 class PendingChainFake extends PendingChain
@@ -33,7 +33,7 @@ class PendingChainFake extends PendingChain
     /**
      * Dispatch the job with the given arguments.
      *
-     * @return \Illuminate\Foundation\Bus\PendingDispatch
+     * @return \App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingDispatch
      */
     public function dispatch()
     {

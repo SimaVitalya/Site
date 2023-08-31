@@ -3,7 +3,7 @@
 namespace Laravel\Ui\Tests\AuthBackend;
 
 use Illuminate\Auth\Events\Attempting;
-use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Pipeline;
 use Illuminate\Support\Facades\Auth;

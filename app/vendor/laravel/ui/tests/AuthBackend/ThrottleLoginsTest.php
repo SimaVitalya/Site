@@ -2,7 +2,7 @@
 
 namespace Laravel\Ui\Tests\AuthBackend;
 
-use Illuminate\Foundation\Auth\ThrottlesLogins;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Auth\ThrottlesLogins;
 use Orchestra\Testbench\TestCase;
 use Illuminate\Http\Request;
 use PHPUnit\Framework\MockObject\MockObject;

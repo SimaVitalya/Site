@@ -6,7 +6,7 @@ use Facade\Ignition\Exceptions\ViewException;
 use Facade\Ignition\Support\StringComparator;
 use Facade\IgnitionContracts\BaseSolution;
 use Facade\IgnitionContracts\HasSolutionsForThrowable;
-use Illuminate\Foundation\Application;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use InvalidArgumentException;
 use Symfony\Component\Routing\Exception\RouteNotFoundException;

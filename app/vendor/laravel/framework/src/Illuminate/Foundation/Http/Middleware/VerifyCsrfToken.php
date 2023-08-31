@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Http\Middleware;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Encryption\DecryptException;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Http\Events;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Http\Events;
 
 class RequestHandled
 {

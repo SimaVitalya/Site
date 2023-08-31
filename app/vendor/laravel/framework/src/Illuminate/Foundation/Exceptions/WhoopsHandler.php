@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Exceptions;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Arr;

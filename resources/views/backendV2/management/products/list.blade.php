@@ -51,11 +51,7 @@
                     <table class="table align-middle table-row-dashed fs-6 gy-5" id="kt_table_users" style="overflow-x: auto; overflow-y: hidden;">
                         <thead>
                         <tr class="text-start text-muted fw-bold fs-7 text-uppercase gs-0">
-                            <th class="w-10px pe-2">
-                                <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-                                    <input class="form-check-input" id="checkAll" type="checkbox" />
-                                </div>
-                            </th>
+
                             <th class="min-w-100px sorting" tabindex="0" aria-controls="kt_table_users" rowspan="1" colspan="1">{{ __('backend/management.products.id') }}</th>
                             <th class="min-w-125px sorting" tabindex="0" aria-controls="kt_table_users" rowspan="1" colspan="1">{{ __('backend/management.products.name') }}</th>
                             <th class="min-w-125px sorting" tabindex="0" aria-controls="kt_table_users" rowspan="1" colspan="1">{{ __('backend/management.products.category') }}</th>
@@ -69,12 +65,7 @@
 
                         @foreach($products as $product)
                             <tr>
-                                <td>
-                                    <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
 
-                                        <input class="form-check-input orderCheck" data-id="{{ $product->id }}" type="checkbox" />
-                                    </div>
-                                </td>
                                 <th scope="row">{{ $product->id }}</th>
                                 <td>{{ $product->name }}</td>
                                 <td>
@@ -104,12 +95,12 @@
                                 <td>
                                     {{ $product->getSells() }}@if($product->asWeight()){{ $product->getWeightChar() }}@endif
                                 </td>
-                                <td style="font-size: 20px;">
+                                <td style="font-size: 20px ;">
                                     @if(!$product->isUnlimited() && !$product->asWeight())
-                                        <a href="{{ route('backend-management-product-database', $product->id) }}" data-toggle="tooltip" data-original-title="{{ __('backend/main.tooltips.database') }}"><i class="la la-database"></i></a>
+                                        <a style="color: white;!important" href="{{ route('backend-management-product-database', $product->id) }}" data-toggle="tooltip" data-original-title="{{ __('backend/main.tooltips.database') }}"><i class="la la-database"></i></a>
                                     @endif
-                                    <a href="{{ route('backend-management-product-edit', $product->id) }}" data-toggle="tooltip" data-original-title="{{ __('backend/main.tooltips.edit') }}"><i class="la la-edit"></i></a>
-                                    <a href="{{ route('backend-management-product-delete', $product->id) }}" data-toggle="tooltip" data-original-title="{{ __('backend/main.tooltips.delete') }}"><i class="la la-trash"></i></a>
+                                    <a style="color: white;!important" href="{{ route('backend-management-product-edit', $product->id) }}" data-toggle="tooltip" data-original-title="{{ __('backend/main.tooltips.edit') }}"><i class="la la-edit "></i></a>
+                                    <a style="color: white;!important" href="{{ route('backend-management-product-delete', $product->id) }}" data-toggle="tooltip" data-original-title="{{ __('backend/main.tooltips.delete') }}"><i class="la la-trash"></i></a>
                                 </td>
                             </tr>
                         @endforeach

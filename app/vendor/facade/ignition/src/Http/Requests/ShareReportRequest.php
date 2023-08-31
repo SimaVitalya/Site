@@ -2,7 +2,7 @@
 
 namespace Facade\Ignition\Http\Requests;
 
-use Illuminate\Foundation\Http\FormRequest;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Http\FormRequest;
 
 class ShareReportRequest extends FormRequest
 {

@@ -49,11 +49,7 @@
                     <table class="table align-middle table-row-dashed fs-6 gy-5" id="kt_table_users" style="overflow-x: auto; overflow-y: hidden;">
                         <thead>
                         <tr class="text-start text-muted fw-bold fs-7 text-uppercase gs-0">
-                            <th class="w-10px pe-2" rowspan="1" colspan="1" >
-                                <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
-                                    <input class="form-check-input" id="checkAll" type="checkbox" />
-                                </div>
-                            </th>
+
                             <th class="min-w-95px sorting" tabindex="0" aria-controls="kt_table_users" rowspan="1" colspan="1">{{ __('backend/management.tickets.id') }}</th>
                             <th class="min-w-125px sorting" tabindex="0" aria-controls="kt_table_users" rowspan="1" colspan="1">{{ __('backend/management.tickets.user') }}</th>
                             <th class="min-w-125px sorting" tabindex="0" aria-controls="kt_table_users" rowspan="1" colspan="1">{{ __('backend/management.tickets.subject') }}</th>
@@ -66,12 +62,7 @@
                         <tbody class="text-gray-600 fw-semibold">
                         @foreach($tickets as $ticket)
                             <tr>
-                                <td>
-                                    <div class="form-check form-check-sm form-check-custom form-check-solid me-3">
 
-                                        <input class="form-check-input orderCheck" data-id="{{ $ticket->id }}" type="checkbox" />
-                                    </div>
-                                </td>
                                 <td scope="row">{{ $ticket->id }}</td>
                                 <td>
                                     {{ $ticket->getUser()->username }}

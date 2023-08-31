@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Events;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Events;
 
 class VendorTagPublished
 {

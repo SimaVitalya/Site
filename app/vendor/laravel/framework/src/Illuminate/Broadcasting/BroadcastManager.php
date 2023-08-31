@@ -72,7 +72,7 @@ class BroadcastManager implements FactoryContract
             $router->match(
                 ['get', 'post'], '/broadcasting/auth',
                 '\\'.BroadcastController::class.'@authenticate'
-            )->withoutMiddleware([\Illuminate\Foundation\Http\Middleware\VerifyCsrfToken::class]);
+            )->withoutMiddleware([\App\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\VerifyCsrfToken::class]);
         });
     }
 

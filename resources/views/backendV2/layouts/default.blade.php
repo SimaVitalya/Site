@@ -45,11 +45,13 @@
         background-color: #232f3e85!important;
     }
 #kt_table_users tbody i[class*=" la-"], td a {
-    color: #232f3e!important;
+    color: #a72323;
+
 }
 .text-muted:hover {
     color: blueviolet; /* replace with your desired hover color */
 }
+
 .aside .text-muted:hover,
 .aside .aside-menu .menu .menu-item.show>.menu-link:hover span {
     color: #fff !important;

@@ -8,7 +8,7 @@ namespace App\Http\Controllers\Auth;
     use App\Mails\AccountCreatedMail;
     use App\Models\Notification;
     use App\Models\User;
-    use Illuminate\Foundation\Auth\RegistersUsers;
+    use App\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RegistersUsers;
     // use Illuminate\Support\Facades\Hash;
     use Illuminate\Support\Facades\Validator;
     // use Illuminate\Http\Request;
@@ -26,7 +26,7 @@ namespace App\Http\Controllers\Auth;
         {
             $this->middleware('guest');
         }
- 
+
         protected function validator(array $data)
         {
             return Validator::make($data, [
@@ -80,7 +80,7 @@ namespace App\Http\Controllers\Auth;
 
             // $this->validate($request, [
 
-            /*echo"<pre>"; print_r($request->all());*/        
+            /*echo"<pre>"; print_r($request->all());*/
             $validator = Validator::make($request->all(), [
 
               'username'=> [
@@ -93,17 +93,17 @@ namespace App\Http\Controllers\Auth;
                     'required', 'string', 'min:6', 'max:100', 'confirmed',
                 ],
                 'h-captcha-response' => ['required', new ValidHCaptcha()],
-         
+
             ]);
-            
+
 
             if ($validator->fails()) {
-                
+
                 return redirect()->back()
                             ->withErrors($validator)
                             ->withInput();
-            }else{ 
-           
+            }else{
+
                 $user = new User;
                 $user->name = $request->username;
                 $user->username = $request->username;
@@ -120,7 +120,7 @@ namespace App\Http\Controllers\Auth;
                     //     // ]);
                     // }
                 // sleep(5);
-                
+
                 if($user){
                     Auth::login($user);
 

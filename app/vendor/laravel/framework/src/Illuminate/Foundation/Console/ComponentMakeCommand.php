@@ -1,9 +1,9 @@
 <?php
 
-namespace Illuminate\Foundation\Console;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Console;
 
 use Illuminate\Console\GeneratorCommand;
-use Illuminate\Foundation\Inspiring;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Inspiring;
 use Illuminate\Support\Str;
 use Symfony\Component\Console\Input\InputOption;
 

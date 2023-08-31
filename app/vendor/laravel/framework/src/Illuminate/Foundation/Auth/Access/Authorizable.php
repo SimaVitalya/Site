@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Auth\Access;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Auth\Access;
 
 use Illuminate\Contracts\Auth\Access\Gate;
 

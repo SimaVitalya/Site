@@ -2,7 +2,7 @@
 
 namespace Facade\Ignition\Views\Concerns;
 
-use Illuminate\Foundation\Application;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Application;
 use Illuminate\Support\Collection;
 use Illuminate\View\Engines\CompilerEngine;
 

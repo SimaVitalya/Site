@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Bootstrap;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap;
 
 use Exception;
 use Illuminate\Config\Repository;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Testing\Concerns;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns;
 
 use Illuminate\Support\Facades\View as ViewFacade;
 use Illuminate\Support\MessageBag;

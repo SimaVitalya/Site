@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation;
 
 use Exception;
 use Illuminate\Contracts\Foundation\Application as ApplicationContract;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Illuminate\Foundation\Console;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Console;
 
 use Exception;
 use Illuminate\Console\Command;
-use Illuminate\Foundation\Events\MaintenanceModeDisabled;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Events\MaintenanceModeDisabled;
 
 class UpCommand extends Command
 {

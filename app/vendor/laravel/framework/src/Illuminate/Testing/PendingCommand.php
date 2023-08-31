@@ -20,7 +20,7 @@ class PendingCommand
     /**
      * The test being run.
      *
-     * @var \Illuminate\Foundation\Testing\TestCase
+     * @var \App\vendor\laravel\framework\src\Illuminate\Foundation\Testing\TestCase
      */
     public $test;
 

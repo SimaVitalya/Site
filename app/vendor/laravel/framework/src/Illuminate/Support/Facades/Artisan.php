@@ -5,8 +5,8 @@ namespace Illuminate\Support\Facades;
 use Illuminate\Contracts\Console\Kernel as ConsoleKernelContract;
 
 /**
- * @method static \Illuminate\Foundation\Bus\PendingDispatch queue(string $command, array $parameters = [])
- * @method static \Illuminate\Foundation\Console\ClosureCommand command(string $command, callable $callback)
+ * @method static \App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingDispatch queue(string $command, array $parameters = [])
+ * @method static \App\vendor\laravel\framework\src\Illuminate\Foundation\Console\ClosureCommand command(string $command, callable $callback)
  * @method static array all()
  * @method static int call(string $command, array $parameters = [], \Symfony\Component\Console\Output\OutputInterface|null $outputBuffer = null)
  * @method static int handle(\Symfony\Component\Console\Input\InputInterface $input, \Symfony\Component\Console\Output\OutputInterface|null $output = null)

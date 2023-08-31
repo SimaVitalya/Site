@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Console;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;

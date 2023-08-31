@@ -60,7 +60,7 @@ use Facade\Ignition\Support\SentReports;
 use Facade\Ignition\Views\Engines\CompilerEngine;
 use Facade\Ignition\Views\Engines\PhpEngine;
 use Facade\IgnitionContracts\SolutionProviderRepository as SolutionProviderRepositoryContract;
-use Illuminate\Foundation\Application;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Application;
 use Illuminate\Log\Events\MessageLogged;
 use Illuminate\Log\LogManager;
 use Illuminate\Queue\QueueManager;

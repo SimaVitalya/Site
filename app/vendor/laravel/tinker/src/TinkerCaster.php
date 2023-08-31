@@ -33,7 +33,7 @@ class TinkerCaster
     /**
      * Get an array representing the properties of an application.
      *
-     * @param  \Illuminate\Foundation\Application  $app
+     * @param  \App\vendor\laravel\framework\src\Illuminate\Foundation\Application  $app
      * @return array
      */
     public static function castApplication($app)

@@ -35,7 +35,7 @@ interface Kernel
      *
      * @param  string  $command
      * @param  array  $parameters
-     * @return \Illuminate\Foundation\Bus\PendingDispatch
+     * @return \App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingDispatch
      */
     public function queue($command, array $parameters = []);
 

@@ -64,7 +64,7 @@ class TestCommand extends Command
         }
 
         // @phpstan-ignore-next-line
-        if ((int) \Illuminate\Foundation\Application::VERSION[0] < 8) {
+        if ((int) \App\vendor\laravel\framework\src\Illuminate\Foundation\Application::VERSION[0] < 8) {
             throw new RequirementsException('Running Collision ^5.0 artisan test command requires at least Laravel ^8.0.');
         }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Exceptions;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions;
 
 use Closure;
 use Exception;
@@ -61,7 +61,7 @@ class Handler implements ExceptionHandlerContract
     /**
      * The callbacks that should be used during reporting.
      *
-     * @var \Illuminate\Foundation\Exceptions\ReportableHandler[]
+     * @var \App\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\ReportableHandler[]
      */
     protected $reportCallbacks = [];
 
@@ -135,7 +135,7 @@ class Handler implements ExceptionHandlerContract
      * Register a reportable callback.
      *
      * @param  callable  $reportUsing
-     * @return \Illuminate\Foundation\Exceptions\ReportableHandler
+     * @return \App\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\ReportableHandler
      */
     public function reportable(callable $reportUsing)
     {

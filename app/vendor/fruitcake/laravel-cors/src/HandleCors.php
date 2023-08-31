@@ -5,7 +5,7 @@ namespace Fruitcake\Cors;
 use Closure;
 use Asm89\Stack\CorsService;
 use Illuminate\Contracts\Http\Kernel;
-use Illuminate\Foundation\Http\Events\RequestHandled;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Http\Events\RequestHandled;
 use Illuminate\Http\Request;
 use Illuminate\Contracts\Container\Container;
 use Symfony\Component\HttpFoundation\Response;

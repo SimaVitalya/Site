@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Testing\Concerns;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns;
 
 use Illuminate\Contracts\Auth\Authenticatable as UserContract;
 

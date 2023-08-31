@@ -3,7 +3,7 @@
 namespace Illuminate\Support\Facades;
 
 use Illuminate\Contracts\Bus\Dispatcher as BusDispatcherContract;
-use Illuminate\Foundation\Bus\PendingChain;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingChain;
 use Illuminate\Support\Testing\Fakes\BusFake;
 
 /**
@@ -11,7 +11,7 @@ use Illuminate\Support\Testing\Fakes\BusFake;
  * @method static \Illuminate\Bus\PendingBatch batch(array|mixed $jobs)
  * @method static \Illuminate\Contracts\Bus\Dispatcher map(array $map)
  * @method static \Illuminate\Contracts\Bus\Dispatcher pipeThrough(array $pipes)
- * @method static \Illuminate\Foundation\Bus\PendingChain chain(array $jobs)
+ * @method static \App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingChain chain(array $jobs)
  * @method static bool hasCommandHandler($command)
  * @method static bool|mixed getCommandHandler($command)
  * @method static mixed dispatch($command)
@@ -52,7 +52,7 @@ class Bus extends Facade
      * Dispatch the given chain of jobs.
      *
      * @param  array|mixed  $jobs
-     * @return \Illuminate\Foundation\Bus\PendingDispatch
+     * @return \App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingDispatch
      */
     public static function dispatchChain($jobs)
     {

@@ -625,7 +625,7 @@ class BusFake implements QueueingDispatcher
      * Create a new chain of queueable jobs.
      *
      * @param  \Illuminate\Support\Collection|array  $jobs
-     * @return \Illuminate\Foundation\Bus\PendingChain
+     * @return \App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingChain
      */
     public function chain($jobs)
     {

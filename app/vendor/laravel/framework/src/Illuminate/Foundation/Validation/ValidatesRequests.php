@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Validation;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Validation;
 
 use Illuminate\Contracts\Validation\Factory;
 use Illuminate\Http\Request;

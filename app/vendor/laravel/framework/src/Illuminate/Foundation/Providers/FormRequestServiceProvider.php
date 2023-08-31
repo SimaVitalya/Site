@@ -1,9 +1,9 @@
 <?php
 
-namespace Illuminate\Foundation\Providers;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Providers;
 
 use Illuminate\Contracts\Validation\ValidatesWhenResolved;
-use Illuminate\Foundation\Http\FormRequest;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Routing\Redirector;
 use Illuminate\Support\ServiceProvider;
 

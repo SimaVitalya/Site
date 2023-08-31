@@ -1,9 +1,9 @@
 <?php
 
-namespace Illuminate\Foundation\Console;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Console;
 
 use Illuminate\Console\Command;
-use Illuminate\Foundation\Support\Providers\EventServiceProvider;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\EventServiceProvider;
 
 class EventCacheCommand extends Command
 {

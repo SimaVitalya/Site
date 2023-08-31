@@ -1,9 +1,9 @@
 <?php
 
-namespace Illuminate\Foundation\Testing\Concerns;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns;
 
 use Closure;
-use Illuminate\Foundation\Mix;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Mix;
 use Mockery;
 
 trait InteractsWithContainer
@@ -11,7 +11,7 @@ trait InteractsWithContainer
     /**
      * The original Laravel Mix handler.
      *
-     * @var \Illuminate\Foundation\Mix|null
+     * @var \App\vendor\laravel\framework\src\Illuminate\Foundation\Mix|null
      */
     protected $originalMix;
 

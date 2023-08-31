@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Bus;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Bus;
 
 use Illuminate\Bus\UniqueLock;
 use Illuminate\Container\Container;

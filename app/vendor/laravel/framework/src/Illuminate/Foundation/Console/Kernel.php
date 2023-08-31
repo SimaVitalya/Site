@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Console;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Console;
 
 use Closure;
 use Illuminate\Console\Application as Artisan;
@@ -60,13 +60,13 @@ class Kernel implements KernelContract
      * @var string[]
      */
     protected $bootstrappers = [
-        \Illuminate\Foundation\Bootstrap\LoadEnvironmentVariables::class,
-        \Illuminate\Foundation\Bootstrap\LoadConfiguration::class,
-        \Illuminate\Foundation\Bootstrap\HandleExceptions::class,
-        \Illuminate\Foundation\Bootstrap\RegisterFacades::class,
-        \Illuminate\Foundation\Bootstrap\SetRequestForConsole::class,
-        \Illuminate\Foundation\Bootstrap\RegisterProviders::class,
-        \Illuminate\Foundation\Bootstrap\BootProviders::class,
+        \App\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\LoadEnvironmentVariables::class,
+        \App\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\LoadConfiguration::class,
+        \App\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions::class,
+        \App\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterFacades::class,
+        \App\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\SetRequestForConsole::class,
+        \App\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\RegisterProviders::class,
+        \App\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\BootProviders::class,
     ];
 
     /**
@@ -186,7 +186,7 @@ class Kernel implements KernelContract
      *
      * @param  string  $signature
      * @param  \Closure  $callback
-     * @return \Illuminate\Foundation\Console\ClosureCommand
+     * @return \App\vendor\laravel\framework\src\Illuminate\Foundation\Console\ClosureCommand
      */
     public function command($signature, Closure $callback)
     {
@@ -268,7 +268,7 @@ class Kernel implements KernelContract
      *
      * @param  string  $command
      * @param  array  $parameters
-     * @return \Illuminate\Foundation\Bus\PendingDispatch
+     * @return \App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingDispatch
      */
     public function queue($command, array $parameters = [])
     {

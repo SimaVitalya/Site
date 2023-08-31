@@ -1,9 +1,9 @@
 <?php
 
-namespace Illuminate\Foundation\Auth;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Auth;
 
 use Illuminate\Auth\Events\Verified;
-use Illuminate\Foundation\Http\FormRequest;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Http\FormRequest;
 
 class EmailVerificationRequest extends FormRequest
 {

@@ -2,8 +2,8 @@
 
 namespace Laravel\Ui\Tests\AuthBackend;
 
-use Illuminate\Foundation\Auth\RegistersUsers;
-use Illuminate\Foundation\Auth\User;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Auth\RegistersUsers;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Auth\User;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Pipeline;
 use Illuminate\Support\Facades\Auth;

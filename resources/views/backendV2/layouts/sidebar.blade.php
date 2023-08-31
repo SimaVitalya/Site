@@ -20,7 +20,7 @@
                      <!--begin:Menu link-->
                      <span class="menu-link">
                          <a class="menu-link active" href="{{ route('backendV2-dashboard') }}">
-                             <span class="text-muted">{{ __('backend/dashboard.title') }}</span>
+                             <span class="text-white">{{ __('backend/dashboard.title') }}</span>
                          </a>
                      </span>
                      <!--end:Menu link-->
@@ -32,20 +32,20 @@
                      <!--begin:Menu link-->
                      <span class="menu-link">
                          <a class="menu-link active" href="{{ url('/') }}">
-                             <span class="text-muted" style="display: flex;gap: 10px; color: #000000d1;">Shop <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i></span>
+                             <span class="text-white" style="display: flex;gap: 10px; color: #000000d1;">Shop <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i></span>
                          </a>
                      </span>
                      <!--end:Menu link-->
                  </div>
 
-                 
+
 
                  <!--begin:Menu item-->
                  <!-- <div  class="menu-item here show menu-accordion"> -->
                      <!--begin:Menu link-->
                      <!-- <span class="menu-link">
                          <a class="menu-link" href="{{ route('backendV2-jabber') }}">
-                             <span class="text-muted">{{ __('backend/jabber.title') }}</span>
+                             <span class="text-white">{{ __('backend/jabber.title') }}</span>
                          </a>
                      </span> -->
                      <!--end:Menu link-->
@@ -56,7 +56,7 @@
                      <!--begin:Menu link-->
                      <span class="menu-link">
                          <a class="menu-link" href="{{ route('backend-management-shop-logo') }}">
-                             <span class="text-muted">Appearance</span>
+                             <span class="text-white">Appearance</span>
                          </a>
                      </span>
                      <!--end:Menu link-->
@@ -67,7 +67,7 @@
                      <!--begin:Menu link-->
                      <span class="menu-link">
                          <a class="menu-link" href="{{ route('backendV2-orders') }}">
-                             <span class="text-muted">{{ __('backend/orders.title') }}</span>
+                             <span class="text-white">{{ __('backend/orders.title') }}</span>
                          </a>
                      </span>
                      <!--end:Menu link-->
@@ -79,7 +79,7 @@
                      <!--begin:Menu link-->
                      <!--<span class="menu-link">-->
                      <!--    <a class="menu-link" href="{{ route('backendV2-design') }}">-->
-                     <!--        <span class="text-muted">{{ __('backend/design.title') }}</span>-->
+                     <!--        <span class="text-white">{{ __('backend/design.title') }}</span>-->
                      <!--    </a>-->
                      </span>
                      <!--end:Menu link-->
@@ -90,7 +90,7 @@
                     <!--begin:Menu link-->
                 <!--    <span class="menu-link">-->
                 <!--        <a class="menu-link" href="{{ route('backend-management-marque') }}">-->
-                <!--            <span class="text-muted">Marque</span>-->
+                <!--            <span class="text-white">Marque</span>-->
                 <!--        </a>-->
                 <!--     </span>-->
                     <!--end:Menu link-->
@@ -101,7 +101,7 @@
                      <!--begin:Menu link-->
                      <!-- <span class="menu-link">
                          <a class="menu-link" href="{{ route('backendV2-media') }}">
-                             <span class="text-muted">{{ __('backend/media.title') }}</span>
+                             <span class="text-white">{{ __('backend/media.title') }}</span>
                          </a>
                      </span> -->
                      <!--end:Menu link-->
@@ -121,7 +121,7 @@
                              </span>
                              <!--end::Svg Icon-->
                          </span>
-                         <span class="text-muted">{{ __('backend/management.title') }}</span>
+                         <span class="text-white">{{ __('backend/management.title') }}</span>
                          <span class="menu-arrow"></span>
                      </span>
                      <!--end:Menu link-->
@@ -134,7 +134,7 @@
                                  <span class="menu-bullet">
                                      <span class="bullet bullet-dot"></span>
                                  </span>
-                                 <span class="text-muted">{{ __('backend/management.tickets.title') }}</span>
+                                 <span class="text-white">{{ __('backend/management.tickets.title') }}</span>
                                  <span class="menu-arrow"></span>
                              </span>
                              <!--end:Menu link-->
@@ -149,7 +149,7 @@
                                          <span class="menu-bullet">
                                              <span class="bullet bullet-dot"></span>
                                          </span>
-                                             <span class="text-muted">{{ __('backend/management.tickets.title') }}</span>
+                                             <span class="text-white">{{ __('backend/management.tickets.title') }}</span>
                                          </a>
                                          <!--end:Menu link-->
                                      </div>
@@ -159,7 +159,7 @@
                                          <span class="menu-bullet">
                                              <span class="bullet bullet-dot"></span>
                                          </span>
-                                         <span class="text-muted">{{ __('backend/management.tickets.categories.title') }}</span>
+                                         <span class="text-white">{{ __('backend/management.tickets.categories.title') }}</span>
                                      </a>
                                      <!--end:Menu link-->
                                  </div>
@@ -175,7 +175,7 @@
                                  <span class="menu-bullet">
                                      <span class="bullet bullet-dot"></span>
                                  </span>
-                                 <span class="text-muted">{{ __('backend/management.products.title') }}</span>
+                                 <span class="text-white">{{ __('backend/management.products.title') }}</span>
                                  <span class="menu-arrow"></span>
                              </span>
                              <!--end:Menu link-->
@@ -190,7 +190,7 @@
                                          <span class="menu-bullet">
                                              <span class="bullet bullet-dot"></span>
                                          </span>
-                                             <span class="text-muted">{{ __('backend/management.products.title') }}</span>
+                                             <span class="text-white">{{ __('backend/management.products.title') }}</span>
                                          </a>
                                          <!--end:Menu link-->
                                      </div>
@@ -200,7 +200,7 @@
                                          <span class="menu-bullet">
                                              <span class="bullet bullet-dot"></span>
                                          </span>
-                                         <span class="text-muted">{{ __('backend/management.products.categories.title') }}</span>
+                                         <span class="text-white">{{ __('backend/management.products.categories.title') }}</span>
                                      </a>
                                      <!--end:Menu link-->
                                  </div>
@@ -216,7 +216,7 @@
                                  <span class="menu-bullet">
                                      <span class="bullet bullet-dot"></span>
                                  </span>
-                                 <span class="text-muted">{{ __('backend/management.faqs.title') }}</span>
+                                 <span class="text-white">{{ __('backend/management.faqs.title') }}</span>
                                  <span class="menu-arrow"></span>
                              </span>
                              <!--end:Menu link-->
@@ -231,7 +231,7 @@
                                          <span class="menu-bullet">
                                              <span class="bullet bullet-dot"></span>
                                          </span>
-                                             <span class="text-muted">{{ __('backend/management.faqs.title') }}</span>
+                                             <span class="text-white">{{ __('backend/management.faqs.title') }}</span>
                                          </a>
                                          <!--end:Menu link-->
                                      </div>
@@ -241,7 +241,7 @@
                                          <span class="menu-bullet">
                                              <span class="bullet bullet-dot"></span>
                                          </span>
-                                         <span class="text-muted">{{ __('backend/management.faqs.categories.title') }}</span>
+                                         <span class="text-white">{{ __('backend/management.faqs.categories.title') }}</span>
                                      </a>
                                      <!--end:Menu link-->
                                  </div>
@@ -266,7 +266,7 @@
                                          <span class="menu-bullet">
                                              <span class="bullet bullet-dot"></span>
                                          </span>
-                                 <span class="text-muted">{{ __('backend/management.users.title') }}</span>
+                                 <span class="text-white">{{ __('backend/management.users.title') }}</span>
                              </a>
                              <!--end:Menu link-->
                          </div>
@@ -276,11 +276,11 @@
                                          <span class="menu-bullet">
                                              <span class="bullet bullet-dot"></span>
                                          </span>
-                                 <span class="text-muted">{{ __('backend/management.coupons.title') }}</span>
+                                 <span class="text-white">{{ __('backend/management.coupons.title') }}</span>
                              </a>
                              <!--end:Menu link-->
                          </div>
-                         
+
                          <!-- <div class="menu-item"> -->
                              <!--begin:Menu link-->
                              <!-- <a class="menu-link" href="{{ route('backend-management-delivery-methods-with-pageNumber') }}">
@@ -296,7 +296,7 @@
                  </div>
                  <!--end:Menu item-->
                  <!--begin:Menu item-->
-                 
+
                  <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                              <!--begin:Menu link-->
                              <!-- <span class="menu-link">&nbsp;&nbsp;
@@ -321,7 +321,7 @@
                                          <span class="menu-bullet">
                                              <span class="bullet bullet-dot"></span>
                                          </span>
-                                             <span class="text-muted">Shop logo</span>
+                                             <span class="text-white">Shop logo</span>
                                          </a>
                                          <!--end:Menu link-->
                                      </div>
@@ -331,14 +331,14 @@
                                          <span class="menu-bullet">
                                              <span class="bullet bullet-dot"></span>
                                          </span>
-                                         <span class="text-muted">Shop name</span>
+                                         <span class="text-white">Shop name</span>
                                      </a>
 
                                      <a class="menu-link" href="{{ route('backend-management-tickets-categories-with-pageNumber') }}">
                                          <span class="menu-bullet">
                                              <span class="bullet bullet-dot"></span>
                                          </span>
-                                         <span class="text-muted">Shop Description</span>
+                                         <span class="text-white">Shop Description</span>
                                      </a>
                                      <!--end:Menu link-->
                                  </div>
@@ -346,7 +346,7 @@
                              </div>
                              <!--end:Menu sub-->
                          </div>
-                
+
                  <!-- <div data-kt-menu-trigger="click" class="menu-item menu-accordion"> -->
                      <!--begin:Menu link-->
                      <!-- <span class="menu-link">
@@ -428,7 +428,7 @@
                  <!--begin::User info-->
                  <div class="ms-2">
                      <!--begin::Name-->
-                     <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-bold lh-1">{{ Auth::user()->name }}</a>
+                     <a href="#" class="text-white text-hover-primary fs-6 fw-bold lh-1">{{ Auth::user()->name }}</a>
                      <!--end::Name-->
                      <!--begin::Major-->
                      <!--<span class="text-muted fw-semibold d-block fs-7 lh-1">Python Dev</span>-->
@@ -438,7 +438,7 @@
              </div>
 
 
-             
+
 
              <!--end::Wrapper-->
              <!--begin::User menu-->
@@ -548,7 +548,7 @@
                                     <!--begin::Menu item-->
 
                                     <div class="menu-item px-5 my-1">
-                                    @if(count(App\Models\Setting::getAvailableLocales()))                  
+                                    @if(count(App\Models\Setting::getAvailableLocales()))
                                         @foreach(App\Models\Setting::getAvailableLocales() as $locale)
                                             @php
                                                 if( \Lang::get('locale.name', [], $locale)  == "Deutsch"){
@@ -564,7 +564,7 @@
 
                                     <!--end::Menu item-->
                                     <!--begin::Menu item-->
-                                    
+
                                     <!--end::Menu item-->
                                 </div>
                                 <!--end::User account menu-->

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Providers;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Providers;
 
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Database\MigrationServiceProvider;

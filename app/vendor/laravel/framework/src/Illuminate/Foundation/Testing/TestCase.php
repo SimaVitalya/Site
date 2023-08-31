@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Testing;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Testing;
 
 use Carbon\Carbon;
 use Carbon\CarbonImmutable;
@@ -32,7 +32,7 @@ abstract class TestCase extends BaseTestCase
     /**
      * The Illuminate application instance.
      *
-     * @var \Illuminate\Foundation\Application
+     * @var \App\vendor\laravel\framework\src\Illuminate\Foundation\Application
      */
     protected $app;
 

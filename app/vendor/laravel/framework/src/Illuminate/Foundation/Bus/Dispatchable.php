@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Bus;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Bus;
 
 use Illuminate\Contracts\Bus\Dispatcher;
 use Illuminate\Support\Fluent;
@@ -10,7 +10,7 @@ trait Dispatchable
     /**
      * Dispatch the job with the given arguments.
      *
-     * @return \Illuminate\Foundation\Bus\PendingDispatch
+     * @return \App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingDispatch
      */
     public static function dispatch(...$arguments)
     {
@@ -22,7 +22,7 @@ trait Dispatchable
      *
      * @param  bool  $boolean
      * @param  mixed  ...$arguments
-     * @return \Illuminate\Foundation\Bus\PendingDispatch|\Illuminate\Support\Fluent
+     * @return \App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingDispatch|\Illuminate\Support\Fluent
      */
     public static function dispatchIf($boolean, ...$arguments)
     {
@@ -36,7 +36,7 @@ trait Dispatchable
      *
      * @param  bool  $boolean
      * @param  mixed  ...$arguments
-     * @return \Illuminate\Foundation\Bus\PendingDispatch|\Illuminate\Support\Fluent
+     * @return \App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingDispatch|\Illuminate\Support\Fluent
      */
     public static function dispatchUnless($boolean, ...$arguments)
     {
@@ -83,7 +83,7 @@ trait Dispatchable
      * Set the jobs that should run if this job is successful.
      *
      * @param  array  $chain
-     * @return \Illuminate\Foundation\Bus\PendingChain
+     * @return \App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingChain
      */
     public static function withChain($chain)
     {

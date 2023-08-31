@@ -13,7 +13,7 @@ abstract class TestCase extends OrchestraTestCase
     /**
      * Get package providers.
      *
-     * @param  \Illuminate\Foundation\Application  $app
+     * @param  \App\vendor\laravel\framework\src\Illuminate\Foundation\Application  $app
      *
      * @return array
      */
@@ -27,7 +27,7 @@ abstract class TestCase extends OrchestraTestCase
     /**
      * Get package aliases.
      *
-     * @param  \Illuminate\Foundation\Application  $app
+     * @param  \App\vendor\laravel\framework\src\Illuminate\Foundation\Application  $app
      *
      * @return array
      */
@@ -41,7 +41,7 @@ abstract class TestCase extends OrchestraTestCase
     /**
      * Define environment setup.
      *
-     * @param  \Illuminate\Foundation\Application  $app
+     * @param  \App\vendor\laravel\framework\src\Illuminate\Foundation\Application  $app
      *
      * @return void
      */

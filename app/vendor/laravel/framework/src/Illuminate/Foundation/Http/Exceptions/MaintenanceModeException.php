@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Http\Exceptions;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Http\Exceptions;
 
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Date;

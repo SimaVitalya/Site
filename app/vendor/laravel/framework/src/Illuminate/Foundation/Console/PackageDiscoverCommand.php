@@ -1,9 +1,9 @@
 <?php
 
-namespace Illuminate\Foundation\Console;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Console;
 
 use Illuminate\Console\Command;
-use Illuminate\Foundation\PackageManifest;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\PackageManifest;
 
 class PackageDiscoverCommand extends Command
 {
@@ -24,7 +24,7 @@ class PackageDiscoverCommand extends Command
     /**
      * Execute the console command.
      *
-     * @param  \Illuminate\Foundation\PackageManifest  $manifest
+     * @param  \App\vendor\laravel\framework\src\Illuminate\Foundation\PackageManifest  $manifest
      * @return void
      */
     public function handle(PackageManifest $manifest)

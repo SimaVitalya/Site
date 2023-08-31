@@ -3,16 +3,16 @@
 namespace App\Http\Controllers\Auth;
 
     use App\Http\Controllers\Controller;
-    use Illuminate\Foundation\Auth\AuthenticatesUsers;
+    use App\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers;
     use Illuminate\Http\Request;
 	use App\Rules\ValidHCaptcha;
 
     class LoginController extends Controller
     {
         use AuthenticatesUsers;
-        
+
 		protected $redirectTo = '/admin';
-		
+
 		    protected function redirectTo()
 			{
 				if (auth()->user()->id == '1') {
@@ -30,7 +30,7 @@ namespace App\Http\Controllers\Auth;
 
         protected function credentials(Request $request)
         {
-           
+
             $field = $this->field($request);
 
             return [
@@ -41,7 +41,7 @@ namespace App\Http\Controllers\Auth;
 
         public function field(Request $request)
         {
-            
+
             $email = $this->username();
 
             return 'username';
@@ -50,7 +50,7 @@ namespace App\Http\Controllers\Auth;
 
         protected function validateLogin(Request $request)
         {
-           
+
             $field = $this->field($request);
 
             $messages = [

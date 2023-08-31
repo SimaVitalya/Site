@@ -12,9 +12,9 @@ use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
 use Illuminate\Contracts\View\Factory as ViewFactory;
-use Illuminate\Foundation\Bus\PendingClosureDispatch;
-use Illuminate\Foundation\Bus\PendingDispatch;
-use Illuminate\Foundation\Mix;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingClosureDispatch;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingDispatch;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Mix;
 use Illuminate\Http\Exceptions\HttpResponseException;
 use Illuminate\Queue\CallQueuedClosure;
 use Illuminate\Support\Facades\Date;
@@ -380,7 +380,7 @@ if (! function_exists('dispatch')) {
      * Dispatch a job to its appropriate handler.
      *
      * @param  mixed  $job
-     * @return \Illuminate\Foundation\Bus\PendingDispatch
+     * @return \App\vendor\laravel\framework\src\Illuminate\Foundation\Bus\PendingDispatch
      */
     function dispatch($job)
     {

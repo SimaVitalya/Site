@@ -1,9 +1,9 @@
 <?php
 
-namespace Illuminate\Foundation\Testing\Concerns;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns;
 
 use Exception;
-use Illuminate\Foundation\Application;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Application;
 use Illuminate\Redis\RedisManager;
 use Illuminate\Support\Env;
 

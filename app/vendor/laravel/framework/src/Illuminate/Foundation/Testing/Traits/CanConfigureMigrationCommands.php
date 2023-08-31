@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Testing\Traits;
+namespace App\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Traits;
 
 trait CanConfigureMigrationCommands
 {

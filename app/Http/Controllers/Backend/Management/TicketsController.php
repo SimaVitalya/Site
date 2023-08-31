@@ -128,12 +128,13 @@ namespace App\Http\Controllers\Backend\Management;
             }
 
             $ticketReplies = UserTicketReply::where('ticket_id', $ticket->id)->get()->all();
-
+            $themeMode = 'light';
             return view('backendV2.management.tickets.edit', [
                 'ticket' => $ticket,
                 'ticketReplies' => $ticketReplies,
                 'managementPage' => true,
-            ]);
+
+            ],compact('themeMode'));
         }
 
         public function showTicketsPage(Request $request, $pageNumber = 0)

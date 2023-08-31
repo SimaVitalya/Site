@@ -204,7 +204,7 @@
 
                                     @if(Auth::check())
                                       @if( Auth::user()->id == 1)
-                                 <li><a href="https://laravel-script.net/admin" style="display: flex; align-items: center; gap: 5px;"> Admin Panel <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i></a></li>
+                                 <li><a href="http://public/admin" style="display: flex; align-items: center; gap: 5px;"> Admin Panel <i class="fa-solid fa-up-right-from-square" style="font-size: 12px;"></i></a></li>
                                  @endif
                                   @endif
                               </ul>

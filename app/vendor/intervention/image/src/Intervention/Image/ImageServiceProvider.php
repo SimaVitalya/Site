@@ -4,7 +4,7 @@ namespace Intervention\Image;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
-use Illuminate\Foundation\Application as IlluminateApplication;
+use App\vendor\laravel\framework\src\Illuminate\Foundation\Application as IlluminateApplication;
 
 class ImageServiceProvider extends ServiceProvider
 {

@@ -444,10 +444,9 @@
                                         </div>
                                     </td>
                                     <td>
-
                                         <a href="#" class="text-dark fw-bold text-hover-primary d-block fs-6 td_href">
-                                            @if($orders->thumbnail_image && file_exists('assets/adminV2/assets/media/product/'.$orders->thumbnail_image))
-                                                <img class="image_text" src="{{asset_dir('adminV2/assets/media/product/'.$orders->thumbnail_image)}}" alt=""/>
+                                            @if($orders->product->thumbnail_image && file_exists('assets/adminV2/assets/media/product/'.$orders->thumbnail_image))
+                                                <img class="image_text" src="{{asset_dir('adminV2/assets/media/product/'.$orders->product->thumbnail_image)}}" alt=""/>
                                             @else
                                                 <div class="image-container text-center">
                                                     <h3 class="text">{{ $orders->name }}</h3>
